@@ -1,4 +1,3 @@
-# Functions
 def add(a, b):
     return a + b
 
@@ -14,7 +13,6 @@ def divide(a, b):
     return a / b
 
 
-# Store operations in a dictionary
 operations = {
     "1": add,
     "2": subtract,
@@ -44,4 +42,5 @@ while True:
         print("Result:", result)
 
     else:
+
         print("Invalid choice.")
